@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simply-Divine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,500i,600,600i,700,700i,800&display=swap&subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site-size">
+    <header class="site-size__header">
+        <nav class="header__container-menu">
+            <div class="container-menu__logo">
+                <img src="img/gold2.png" class="logo__img" alt="">
+                <!--<span class="logo__text">Simply Divine</span>-->
+            </div>
+            <ul class="container-menu__d-menu">
+                <li class="d-menu__item-menu">
+                    <a href="#" class="item-menu__href-menu">
+                        <span class="href-menu__text-menu">Главная</span>
+                    </a>
+                </li>
+                <li class="d-menu__item-menu">
+                    <a href="about.html" class="item-menu__href-menu">
+                        <span class="href-menu__text-menu">О нас</span>
+                    </a>
+                </li>
+                <li class="d-menu__item-menu">
+                    <a href="turnirs.html" class="item-menu__href-menu">
+                        <span class="href-menu__text-menu">Чемпионаты</span>
+                    </a>
+                </li>
+                <li class="d-menu__item-menu">
+                    <a href="judges.html" class="item-menu__href-menu">
+                        <span class="href-menu__text-menu">Судьи</span>
+                    </a>
+                    <ul class="item-menu__submenu-list">
+                        <li class="submenu-list__item-submenu">
+                            <a href="" class="item-submenu__href-submenu">
+                                <span class="href-submenu__text-submenu">Парикмахер</span>
+                            </a>
+                        </li>
+                        <li class="submenu-list__item-submenu">
+                            <a href="" class="item-submenu__href-submenu">
+                                <span class="href-submenu__text-submenu">Ногтевая эстетика</span>
+                            </a>
+                        </li>
+                        <li class="submenu-list__item-submenu">
+                            <a href="" class="item-submenu__href-submenu">
+                                <span class="href-submenu__text-submenu">Визажисты</span>
+                            </a>
+                        </li>
+                        <li class="submenu-list__item-submenu">
+                            <a href="" class="item-submenu__href-submenu">
+                                <span class="href-submenu__text-submenu">Бровисты</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="d-menu__item-menu">
+                    <a href="q.pptx" class="item-menu__href-menu" target="_blank">
+                        <span class="href-menu__text-menu">Для партнеров</span>
+                    </a>
+                </li>
+            </ul>
+            <button class="container-menu__m-burger-btn" id="MobBtn">
+                <span id="f"></span>
+                <span id="s"></span>
+                <span id="t"></span>
+            </button>
+            <ul class="container-menu__m-menu-list">
+                <li class="m-menu-list__m-menu-item">
+                    <a href="#" class="m-menu-item__m-menu-href">
+                        <span class="m-menu-href__m-menu-text">главная</span>
+                    </a>
+                </li>
+                <li class="m-menu-list__m-menu-item">
+                    <a href="#" class="m-menu-item__m-menu-href">
+                        <span class="m-menu-href__m-menu-text">о нас</span>
+                    </a>
+                </li>
+                <li class="m-menu-list__m-menu-item">
+                    <a href="#" class="m-menu-item__m-menu-href">
+                        <span class="m-menu-href__m-menu-text">чемпионат</span>
+                    </a>
+                    <ul class="m-menu-item__m-submenu-list">
+                        <li class="m-submenu-list__m-submenu-item">
+                            <a href="#" class="m-submenu-item___m-submenu-href">
+                                <span class="m-submenu-href___m-submenu-text">чемп 1</span>
+                            </a>
+                        </li>
+                        <li class="m-submenu-list__m-submenu-item">
+                            <a href="#" class="m-submenu-item___m-submenu-href">
+                                <span class="m-submenu-href___m-submenu-text">чемп 2</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="container-menu__header-contacts-row">
+                <a href="https://www.instagram.com/simply_divine_kherson/?igshid=1a06jj2eky9mq"
+                   class="header-contacts-row__item-contact">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="header-contacts-row__item-contact">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="" class="header-contacts-row__item-contact">
+                    <i class="fab fa-viber"></i>
+                </a>
+                <a href="" class="header-contacts-row__item-contact">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </div>
+            <div class="container-menu__lang-switch">
+                <select>
+                    <option value="ru" default="default">RU</option>
+                    <option value="en">EN</option>
+                    <option value="uk">UK</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+    <main class="site-size__main">
+        <section class="main__container-video-bg">
+            <div class="container-video-bg__layout-content">
+                <div class="temp2">
+                    <button class="title-box__date__reg-btn" id="RegBtnMain">
+                        <span class="reg-btn__text">регистрация</span>
+                    </button>
+                </div>
+                <div class="layout-content__title-box">
+                    <h1>simply-divine</h1>
+                    <h3>Открытый отборочный тур xxiii чемпионата Украины СПУ</h3>
+                    <span class="title-box__date">20 июня</span>
+                    <a href="" class="title-box__anchor-link">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+            <video width="100%" height="auto" preload="auto" loop="loop" autoplay="autoplay" muted="muted"
+                   class="mobile-enabled">
+                <source src="video/v2.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section class="main__container-rulers">
+            <h2 class="container-rulers__title">Rulers title</h2>
+            <div class="container-rulers__row">
+                <div class="row__item-box">
+                    <a href="#" target="_blank">
+                        <!--<i class="fas fa-file-word"></i>-->
+                        <img src="img/docs-icon.png" class="item-box__img" alt="">
+                        <h4>title rule</h4>
+                    </a>
+                </div>
+                <div class="row__item-box">
+                    <a href="#" target="_blank">
+                        <!--<i class="fas fa-file-word"></i>-->
+                        <img src="img/docs-icon.png" class="item-box__img" alt="">
+                        <h4>title rule</h4>
+                    </a>
+                </div>
+                <div class="row__item-box">
+                    <a href="#" target="_blank">
+                        <!--<i class="fas fa-file-word"></i>-->
+                        <img src="img/docs-icon.png" class="item-box__img" alt="">
+                        <h4>title rule</h4>
+                    </a>
+                </div>
+                <div class="row__item-box">
+                    <a href="#" target="_blank">
+                        <!--<i class="fas fa-file-word"></i>-->
+                        <img src="img/docs-icon.png" class="item-box__img" alt="">
+                        <h4>title rule</h4>
+                    </a>
+                </div>
+                <div class="row__item-box">
+                    <a href="#" target="_blank">
+                        <!--<i class="fas fa-file-word"></i>-->
+                        <img src="img/docs-icon.png" class="item-box__img" alt="">
+                        <h4>title rule</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main__containers-persons">
+            <h2 class="container-persons__title">Our persons</h2>
+            <div class="container-persons__content">
+                <div class="content__person" id="l">
+                    <img src="img/di.jpg" class="person__photo">
+                    <h4>President</h4>
+                    <h5>Толубко Александр Владимирович</h5>
+                    <p class="person__desc"></p>
+                </div>
+                <div class="content__person-text">
+                    <p>
+                        Some text about the leaders, how good they are, etc. Some text about the leaders, how good they
+                        are, etc.
+                    </p>
+                </div>
+                <div class="content__person" id="r">
+                    <img src="img/president.jpg" class="person__photo">
+                    <h4>President</h4>
+                    <h5>Толубко Александр Владимирович</h5>
+                    <p class="person__desc"></p>
+                </div>
+            </div>
+            <a href="#" class="container-persons__more-btn">
+                <span class="more-btn__text">More</span>
+            </a>
+        </section>
+        <section class="main__container-referees-sliders">
+            <h2 class="container-referees-sliders__title">Lorem Ipsum Dolor</h2>
+            <div class="container-referees-sliders__category-sliders">
+                <h3 class="category-sliders__title">Category title</h3>
+                <div class="category-sliders__slider">
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-referees-sliders__category-sliders">
+                <h3 class="category-sliders__title">Category title</h3>
+                <div class="category-sliders__slider">
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="category-sliders__title">Category title</h3>
+                <div class="category-sliders__slider">
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="category-sliders__title">Category title</h3>
+                <div class="category-sliders__slider">
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__referees-item">
+                        <div class="referees-item___content">
+                            <img src="img/mat-alex.webp" class="content__referee-photo" alt="">
+                            <p class="content__referee-name">Матырный Алекс</p>
+                            <p class="content__referee-desc">Тут будет краткое описание по каждому судье. примерно на
+                                строку - две.</p>
+                            <a href="#" class="content__referee-more-btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__container-registration-form">
+            <!-- <form action="" method="POST" class="container-registration-form__callback-form" id="regForm">
+                <div class="callback-form__row">
+                    <div class="row__personal-info">
+                        <h3>Персональная информация</h3>
+                        <input class="personal-info__input" required="required" name="fio" placeholder="ФИО">
+                        <input class="personal-info__input" required="required" name="city" placeholder="Город">
+                    </div>
+                    <div class="row__contact-info">
+                        <h3>Персональная информация</h3>
+                        <input class="contact-info__input" required="required" name="mail" placeholder="Email"
+                               type="email">
+                        <input class="contact-info__input" required="required" name="phone" placeholder="Телефон"
+                               type="tel">
+                    </div>
+                </div>
+                <div class="callback-form__row">
+                    <div class="row__other-info">
+                        <h3>Персональная информация</h3>
+                        <input class="other-info__input" required="required" name="other"
+                               placeholder="Учебный центр, ФИО тренера" type="text">
+                    </div>
+                    <div class="row__command-info">
+                        <h3>Персональная информация</h3>
+                        <div class="command-info__row">
+                            <div class="row__box">
+                                <label for="y" class="command-info__text">Да</label>
+                                <input class="command-info__input" required="required" name="yes" type="radio"
+                                       id="y">
+                            </div>
+                            <div class="row__box">
+                                <label for="n" class="command-info__text">Нет</label>
+                                <input class="command-info__input" required="required" name="no" type="radio"
+                                       id="n">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="callback-form__row-nominate">
+                    <div class="row__nominate-info">
+                        <select class="nominate-info__input" required="required" name="nominate" id="nominates">
+                            <option value="0">Номинация</option>
+                            <optgroup label="Парикмахерское искусство"></optgroup>
+                            <optgroup label="Мужские мастера">
+                                <option value="4">Авангард (ОМС)</option>
+                                <option value="6">Авторская мужская салонная прическа</option>
+                                <option value="11">Авторская мужская стрижка BARBER EXPERT в стиле FADE</option>
+                                <option value="283">Дизайн и оформление бороды</option>
+                                <option value="16">Мужская повседневная стрижка и укладка</option>
+                                <option value="9">Мужской модный образ. Street style (уличная мода).</option>
+                                <option value="1">Техническая мужская прическа на коротких волосах. 2 вида работ:
+                                    креативная прическа, классическая стрижка и укладка (ОМС)
+                                </option>
+                                <option value="14">Хайр тату выстриг по тушовке</option>
+                            </optgroup>
+                            <optgroup label="Женские мастера">
+                                <option value="293">Женская коммерческая стрижка на длинных волосах. NEW</option>
+                                <option value="43">Женский модный образ. Full Fashion Look</option>
+                                <option value="27">Коктейльная прическа с элементами плетения</option>
+                                <option value="40">Коммерческая салонная стрижка</option>
+                                <option value="18">Модная женская прическа на длинных волосах. 2 вида работ: дневная
+                                    прическа, модная вечерняя прическа (ОМС)
+                                </option>
+                                <option value="37">Модная женская укладка «Голливудская волна» NEW</option>
+                                <option value="45">Модная женская укладка «Стильный хвост»</option>
+                                <option value="50">Окрашивание Expert Blond (чистый блонд)</option>
+                                <option value="291">Прическа для HAIR SHOW. Тема «Украинский этно стиль». NEW
+                                </option>
+                                <option value="310">Прическа для HAIRSHOW. Тема “Украинский этно стиль”. NEW
+                                </option>
+                                <option value="21">Свадбеная прическа. 2 вида работ: Престиж-прическа для гала
+                                    вечера, престиж прическа для новобрачной (ОМС).
+                                </option>
+                                <option value="52">Свадебная прическа NEW</option>
+                                <option value="31">Современная салонная прическа Тема «Светская жизнь»</option>
+                                <option value="292">Современные текстуры. NEW</option>
+                                <option value="47">Стильное окрашивание</option>
+                                <option value="24" class="opt-section">
+                                    Техническая женская прическа на коротких волосах. 2 зачета:
+                                    1-й зачет - Креативная прическа (Ladies Creative Style)
+                                    2-й зачет – Вечерняя прическа (LadiesHair By Night) (ОМС).
+                                </option>
+                                <option value="35">Фантазийная прическа с элементами постижерных изделий. Тема
+                                    свободная
+                                </option>
+                            </optgroup>
+                            <optgroup label="Для студентов">
+                                <option value="59">Женская коммерческая стрижка на длинных волосах</option>
+                                <option value="63">Коктельная прическа с элементами плетения</option>
+                                <option value="304">Коммерческая салонная стрижка</option>
+                                <option value="65">Модная женская укладка «Голливудская волна» NEW</option>
+                                <option value="61">Свадебная современная прическа</option>
+                                <option value="57">Современная салонная прическа Тема «Светская жизнь»</option>
+                                <option value="305">Современные текстуры</option>
+                                <option value="306">Стильное окрашивание</option>
+                            </optgroup>
+                            <optgroup label="Ногтевая эстетика">
+                                <option value="119">Time Record French</option>
+                                <option value="121">Аэрография на ногтях. Тема: «Модный принт»</option>
+                                <option value="165">Заочно - 3-D Дизайн на одном типсе</option>
+                                <option value="150">Заочно - Mix Media (в коробочках). Тема свободная</option>
+                                <option value="161">Заочно - Аэрография в коробочках. Тема «Красота миров»</option>
+                                <option value="175">Заочно - Гелевый дизайн на 5 типсах. Тема «Абстракция»</option>
+                                <option value="179">Заочно - Дизайн на педикюрных типсах. Тема: «Салонный Стильный
+                                    педикюр»
+                                </option>
+                                <option value="177">Заочно - Инкрустация</option>
+                                <option value="187">Заочно - Креативный образ. Тема свободная</option>
+                                <option value="163">Заочно - Номинация «Декорирование предмета». Тема «Сделано в
+                                    Украине»
+                                </option>
+                                <option value="157">Заочно - Постер. Тема «Кадр для Instagram»</option>
+                                <option value="159">Заочно - Постер. Тема СВОБОДНАЯ</option>
+                                <option value="152">Заочно - Роспись плоской кистью (в коробочках). Тема
+                                    «Свободная»
+                                </option>
+                                <option value="170">Заочно - Салонная лепка</option>
+                                <option value="185">Заочно - Свадебный образ. Тема «Букет невесты»</option>
+                                <option value="181">Заочно - Фантазийное моделирование на манекен – руке. Тема
+                                    свободная
+                                </option>
+                                <option value="183">Заочно - Художественная роспись (в коробочках). Тема «Гости из
+                                    будущего»
+                                </option>
+                                <option value="94">Идеальный градиент гелями-лаками</option>
+                                <option value="135">Моделирование ногтей «Салонный миндаль Glass French», Салонный
+                                    миндаль «Хрустальный френч»
+                                </option>
+                                <option value="131">Моделирование ногтей «Современный миндаль» + декоративный
+                                    френч
+                                </option>
+                                <option value="70">Салонное моделирование ногтей (любая технология и материал на
+                                    выбор мастера)
+                                </option>
+                                <option value="145">Салонное моделирование ногтей без опила #безопила Классический
+                                    миндаль
+                                </option>
+                                <option value="90">Современный СТИЛЕТ</option>
+                                <option value="104">Создание идеальной поверхности ногтевой пластины soak-off гелями
+                                    во флаконе
+                                </option>
+                                <option value="85">Художественная роспись на типсах. Тема «Акварельная графика»
+                                </option>
+                            </optgroup>
+                            <optgroup label="Макияж">
+                                <option value="252">Боди-арт</option>
+                                <option value="271">Заочно - Постер «Коммерческий макияж»</option>
+                                <option value="274">Заочно - Постер «Креативный макияж»</option>
+                                <option value="277">Заочно - Фейс-чарт «Коммерческий макияж»</option>
+                                <option value="279">Заочно - Фейс-чарт «Креативный макияж»</option>
+                                <option value="263">Креативный макияж</option>
+                                <option value="257">Макияж «Color Smoky Eyes»</option>
+                                <option value="268">Макияж «Elegant age»</option>
+                                <option value="260">Макияж «New Look»</option>
+                                <option value="254">Макияж «Smoky Eyes» классический</option>
+                                <option value="266">Мужской макияж</option>
+                                <option value="249">Подиумный макияж</option>
+                                <option value="243">Свадебный коммерческий макияж</option>
+                                <option value="246">Свадебный креативный макияж</option>
+                            </optgroup>
+                            <optgroup label="Моделирование бровей">
+                                <option value="281">Брови за 30 минут по правилам ОМС</option>
+                                <option value="229">Классическое моделирование бровей</option>
+                                <option value="236">Ламинирование бровей. Fashion Brow designer</option>
+                                <option value="234">Мужское оформление бровей</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="row__categories" id="categories"></div>
+                    <div class="row__selected-categories">
+                        <button type="button" id="select-category" class="selected-categories__select-btn">
+                            <span>Выбрать</span>
+                        </button>
+                        <div class="check-categories" id="selected-categories"></div>
+                    </div>
+                </div>
+            </form> -->
+            <form class="container-registration-form__callback-form">
+                <div class="callback-form___row-arrows"></div>
+                <div class="callback-form__slider">
+                    <div class="slider__part-one">
+                        <div class="callback-form__row">
+                            <div class="row__personal-info">
+                                <h3>Персональная информация</h3>
+                                <input class="personal-info__input input_a" required="required" name="fio"
+                                       placeholder="ФИО">
+                                <input class="personal-info__input input_b" required="required" name="city"
+                                       placeholder="Город">
+                                <input class="other-info__input input_c" required="required" name="other"
+                                       placeholder="Учебный центр, ФИО тренера" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__part-two">
+                        <div class="callback-form__row">
+                            <div class="row__contact-info">
+                                <h3>Контактная информация</h3>
+                                <input class="contact-info__input" required="required" name="mail" placeholder="Email"
+                                       type="email">
+                                <input class="contact-info__input" required="required" name="phone"
+                                       placeholder="Телефон" type="tel">
+                            </div>
+                            <div class="row__command-info">
+                                <div class="command-info__row">
+                                    <div class="row__box">
+                                        <label for="y" class="command-info__text">Да</label>
+                                        <input class="command-info__input" required="required" name="yes" type="radio"
+                                               id="y">
+                                    </div>
+                                    <div class="row__box">
+                                        <label for="n" class="command-info__text">Нет</label>
+                                        <input class="command-info__input" required="required" name="no" type="radio"
+                                               id="n">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row__nominate-info">
+                                <select class="nominate-info__input" required="required" name="nominate" id="nominates">
+                                    <option value="0">Номинация</option>
+                                    <optgroup label="Парикмахерское искусство"></optgroup>
+                                    <optgroup label="Мужские мастера">
+                                        <option value="4">Авангард (ОМС)</option>
+                                        <option value="6">Авторская мужская салонная прическа</option>
+                                        <option value="11">Авторская мужская стрижка BARBER EXPERT в стиле FADE</option>
+                                        <option value="283">Дизайн и оформление бороды</option>
+                                        <option value="16">Мужская повседневная стрижка и укладка</option>
+                                        <option value="9">Мужской модный образ. Street style (уличная мода).</option>
+                                        <option value="1">Техническая мужская прическа на коротких волосах. 2 вида
+                                            работ:
+                                            креативная прическа, классическая стрижка и укладка (ОМС)
+                                        </option>
+                                        <option value="14">Хайр тату выстриг по тушовке</option>
+                                    </optgroup>
+                                    <optgroup label="Женские мастера">
+                                        <option value="293">Женская коммерческая стрижка на длинных волосах. NEW
+                                        </option>
+                                        <option value="43">Женский модный образ. Full Fashion Look</option>
+                                        <option value="27">Коктейльная прическа с элементами плетения</option>
+                                        <option value="40">Коммерческая салонная стрижка</option>
+                                        <option value="18">Модная женская прическа на длинных волосах. 2 вида работ:
+                                            дневная
+                                            прическа, модная вечерняя прическа (ОМС)
+                                        </option>
+                                        <option value="37">Модная женская укладка «Голливудская волна» NEW</option>
+                                        <option value="45">Модная женская укладка «Стильный хвост»</option>
+                                        <option value="50">Окрашивание Expert Blond (чистый блонд)</option>
+                                        <option value="291">Прическа для HAIR SHOW. Тема «Украинский этно стиль». NEW
+                                        </option>
+                                        <option value="310">Прическа для HAIRSHOW. Тема “Украинский этно стиль”. NEW
+                                        </option>
+                                        <option value="21">Свадбеная прическа. 2 вида работ: Престиж-прическа для гала
+                                            вечера, престиж прическа для новобрачной (ОМС).
+                                        </option>
+                                        <option value="52">Свадебная прическа NEW</option>
+                                        <option value="31">Современная салонная прическа Тема «Светская жизнь»</option>
+                                        <option value="292">Современные текстуры. NEW</option>
+                                        <option value="47">Стильное окрашивание</option>
+                                        <option value="24" class="opt-section">
+                                            Техническая женская прическа на коротких волосах. 2 зачета:
+                                            1-й зачет - Креативная прическа (Ladies Creative Style)
+                                            2-й зачет – Вечерняя прическа (LadiesHair By Night) (ОМС).
+                                        </option>
+                                        <option value="35">Фантазийная прическа с элементами постижерных изделий. Тема
+                                            свободная
+                                        </option>
+                                    </optgroup>
+                                    <optgroup label="Для студентов">
+                                        <option value="59">Женская коммерческая стрижка на длинных волосах</option>
+                                        <option value="63">Коктельная прическа с элементами плетения</option>
+                                        <option value="304">Коммерческая салонная стрижка</option>
+                                        <option value="65">Модная женская укладка «Голливудская волна» NEW</option>
+                                        <option value="61">Свадебная современная прическа</option>
+                                        <option value="57">Современная салонная прическа Тема «Светская жизнь»</option>
+                                        <option value="305">Современные текстуры</option>
+                                        <option value="306">Стильное окрашивание</option>
+                                    </optgroup>
+                                    <optgroup label="Ногтевая эстетика">
+                                        <option value="119">Time Record French</option>
+                                        <option value="121">Аэрография на ногтях. Тема: «Модный принт»</option>
+                                        <option value="165">Заочно - 3-D Дизайн на одном типсе</option>
+                                        <option value="150">Заочно - Mix Media (в коробочках). Тема свободная</option>
+                                        <option value="161">Заочно - Аэрография в коробочках. Тема «Красота миров»
+                                        </option>
+                                        <option value="175">Заочно - Гелевый дизайн на 5 типсах. Тема «Абстракция»
+                                        </option>
+                                        <option value="179">Заочно - Дизайн на педикюрных типсах. Тема: «Салонный
+                                            Стильный
+                                            педикюр»
+                                        </option>
+                                        <option value="177">Заочно - Инкрустация</option>
+                                        <option value="187">Заочно - Креативный образ. Тема свободная</option>
+                                        <option value="163">Заочно - Номинация «Декорирование предмета». Тема «Сделано в
+                                            Украине»
+                                        </option>
+                                        <option value="157">Заочно - Постер. Тема «Кадр для Instagram»</option>
+                                        <option value="159">Заочно - Постер. Тема СВОБОДНАЯ</option>
+                                        <option value="152">Заочно - Роспись плоской кистью (в коробочках). Тема
+                                            «Свободная»
+                                        </option>
+                                        <option value="170">Заочно - Салонная лепка</option>
+                                        <option value="185">Заочно - Свадебный образ. Тема «Букет невесты»</option>
+                                        <option value="181">Заочно - Фантазийное моделирование на манекен – руке. Тема
+                                            свободная
+                                        </option>
+                                        <option value="183">Заочно - Художественная роспись (в коробочках). Тема «Гости
+                                            из
+                                            будущего»
+                                        </option>
+                                        <option value="94">Идеальный градиент гелями-лаками</option>
+                                        <option value="135">Моделирование ногтей «Салонный миндаль Glass French»,
+                                            Салонный
+                                            миндаль «Хрустальный френч»
+                                        </option>
+                                        <option value="131">Моделирование ногтей «Современный миндаль» + декоративный
+                                            френч
+                                        </option>
+                                        <option value="70">Салонное моделирование ногтей (любая технология и материал на
+                                            выбор мастера)
+                                        </option>
+                                        <option value="145">Салонное моделирование ногтей без опила #безопила
+                                            Классический
+                                            миндаль
+                                        </option>
+                                        <option value="90">Современный СТИЛЕТ</option>
+                                        <option value="104">Создание идеальной поверхности ногтевой пластины soak-off
+                                            гелями
+                                            во флаконе
+                                        </option>
+                                        <option value="85">Художественная роспись на типсах. Тема «Акварельная графика»
+                                        </option>
+                                    </optgroup>
+                                    <optgroup label="Макияж">
+                                        <option value="252">Боди-арт</option>
+                                        <option value="271">Заочно - Постер «Коммерческий макияж»</option>
+                                        <option value="274">Заочно - Постер «Креативный макияж»</option>
+                                        <option value="277">Заочно - Фейс-чарт «Коммерческий макияж»</option>
+                                        <option value="279">Заочно - Фейс-чарт «Креативный макияж»</option>
+                                        <option value="263">Креативный макияж</option>
+                                        <option value="257">Макияж «Color Smoky Eyes»</option>
+                                        <option value="268">Макияж «Elegant age»</option>
+                                        <option value="260">Макияж «New Look»</option>
+                                        <option value="254">Макияж «Smoky Eyes» классический</option>
+                                        <option value="266">Мужской макияж</option>
+                                        <option value="249">Подиумный макияж</option>
+                                        <option value="243">Свадебный коммерческий макияж</option>
+                                        <option value="246">Свадебный креативный макияж</option>
+                                    </optgroup>
+                                    <optgroup label="Моделирование бровей">
+                                        <option value="281">Брови за 30 минут по правилам ОМС</option>
+                                        <option value="229">Классическое моделирование бровей</option>
+                                        <option value="236">Ламинирование бровей. Fashion Brow designer</option>
+                                        <option value="234">Мужское оформление бровей</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="row__categories" id="categories"></div>
+                            <div class="row__selected-categories">
+                                <button type="button" id="select-category" class="selected-categories__select-btn">
+                                    <span>Выбрать</span></button>
+                                <div class="check-categories" id="selected-categories"></div>
+                            </div>
+                            <div class="callback-form__row-btns">
+                                <button class="row-btns__submit" id="submit-btn">
+                                    <span>Зарегистрироваться</span>
+                                </button>
+                                <button class="row-btns__reset" id="reset-btn" type="reset">
+                                    <span>Очистить</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="site-size__footer">
+        <div class="footer__content">
+            <div class="content__block">
+                <a href="phone:+380680658422" class="block__footer-link">+380680658422</a>
+            </div>
+            <div class="content__block">
+                <span class="block__footer-copyrite">2020 Simply-Divine</span>
+            </div>
+            <div class="content__block-social">
+                <a href="https://www.instagram.com/simply_divine_kherson/?igshid=1a06jj2eky9mq"
+                   class="footer-social__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="footer-social__link">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="" class="footer-social__link">
+                    <i class="fab fa-viber"></i>
+                </a>
+                <a href="" class="footer-social__link">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
